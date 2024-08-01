@@ -328,7 +328,8 @@ istream &operator>>(istream &in, BigInt &a) {
 }
 
 int main() {
-    BigInt a = 12345678901234567890ULL;
+    int sep=0;
+    BigInt a = "12345678901234567890ULL";
     BigInt b = "98765432109876543210";
     BigInt c = a + b;
     cout << "a + b = " << c << endl;
