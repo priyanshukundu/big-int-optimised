@@ -33,7 +33,7 @@ int main() {
     return 0;
 }
 
-COMPILATION 
+COMPILATION .
 
 g++ -o main main.cpp
 
